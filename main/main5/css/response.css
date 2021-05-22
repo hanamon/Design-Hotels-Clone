@@ -1,0 +1,36 @@
+@charset "utf-8"; /* 디자인 호텔스 main5 (Gallery) */
+
+@import url("../../../css/headFootLib-response.css");
+
+@media all and (max-width:770px){
+	#main>div{width:auto;padding:1.5764582%;}	
+	.modal-nextBtn-wrap{top:45%;right:15px;margin-top:-15px;}
+	.modal-prevBtn-wrap{top:45%;left:15px;margin-top:-15px;}
+	.modal-sns-wrap{display:none;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

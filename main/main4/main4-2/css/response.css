@@ -1,0 +1,26 @@
+@charset "utf-8"; /* 디자인 호텔스 main4-2 (Community) */
+
+@import url("../../../../css/headFootLib-response.css");
+
+@media all and (max-width:1024px){
+	.main4-title-wrap{display:block;}
+	
+	.main4-navBtn-wrap{padding:0;}
+	.main4-navBtn-wrap>div>ul>li>span>a{font-size:12px;padding:10px;}
+	
+	.commu-content-wrap>div>ul>li:nth-child(1)>.commu-content-main-wrap>li:nth-child(1){padding-top:30px;border-top:1px solid #c7c7c7;}
+	.commu-content-main-wrap>li:nth-child(1){padding-bottom:10px;}
+	.commu-content-main-wrap>li:nth-child(2){position:relative;width:100%;padding:25px 13.5px 50px 5%;text-align:left;}
+}
+
+@media all and (max-width:550px){
+	.input-wrap>li div input{width:100%;}
+	.input-wrap>li>span{width:100%;}	
+	.input-wrap>li>span>a{border-left:1px solid #e1e1e1;border-top:0;}	
+	.input-wrap>li>label>span:nth-child(2){width:85%;}
+}
+
+@media all and (max-width:480px){
+	.main4-navBtn-wrap>div>ul>li{width:100%;padding:0;}
+	.main4-navBtn-wrap>div>ul>li>span>i{display:none;}
+}

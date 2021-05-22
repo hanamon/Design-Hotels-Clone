@@ -1,0 +1,121 @@
+@charset "utf-8"; /* 디자인 호텔스 main5 (Gallery) */
+
+@import url("../../../css/fonts.css");
+@import url("../../../css/reset.css");
+@import url("../../../css/headerLib.css");
+@import url("../../../css/footerLib.css");
+			
+/*---------------------------------------------------------------------------------------------------------------*/	
+	.header-right-nav-wrap>ul>li:nth-child(5)>a{border-bottom:1px solid rgba(0,0,0,0.5);}
+	#fixed-side-wrap{z-index:3;position:absolute;top:88px;left:0;width:100%;height:auto;background:#ebebe6;box-shadow:none;}
+	#fixed-side-wrap.addFixedSide{box-shadow:none;}
+	
+/*---------------------------------------------------------------------------------------------------------------*/	
+	#main{z-index:2;position:relative;margin-top:70px;overflow:hidden;}
+	#main>div{width:auto;padding:0.7882291%;}
+		.galley-wrap{width:100%;}
+		.galley-wrap>li{width:100%;}
+		.galley-wrap>li>div{width:100%;}
+		.galley-wrap>li>div>ul{position:relative;width:100%;height:auto;}
+		.galley-wrap>li>div>ul>li{position:absolute;width:33.33333%;}
+		
+		.galley-wrap>li>div>ul>li>div{width:100%;padding:2.4025627%;box-sizing:border-box;}
+		.galley-wrap>li>div>ul>li>div>a{display:block;width:100%;transition:all 0.3s;}
+		.galley-wrap>li>div>ul>li>div>a:hover{opacity:0.5;transition:all 0.3s;}
+		.galley-wrap>li>div>ul>li>div>a:focus{opacity:0.5;transition:all 0.3s;}
+		.galley-wrap>li>div>ul>li>div>a>img{width:100%;}
+		
+		.loadMoreBtn-warp{padding:15px;text-align:center;}
+		.loadMoreBtn-warp>span{display:inline-block;text-transform:uppercase;}
+		.loadMoreBtn-warp>span>a{display:block;padding:5px 30px;font-size:13px;color:#333;font-weight:600;border:1px solid #333;border-radius:2px;transition:all 0.3s;}
+		.loadMoreBtn-warp>span>a:hover{color:#fff;background:#000;transition:all 0.3s;}
+		.loadMoreBtn-warp>span>a:focus{color:#fff;background:#000;transition:all 0.3s;}
+	
+	#modal-window{display:none;z-index:4;position:fixed;top:0;left:0;width:100%;height:100%;padding:0 80px;box-sizing:border-box;text-align:center;background:#f7f7f4;}
+		/* 이미지 */
+		.modal-img-box{position:relative;width:100%;height:80%;}
+		.modal-img-box>img{position:relative;width:auto;height:100%;}
+		.modal-img-box>div{position:fixed;bottom:0;left:0;width:100%;height:auto;padding:20px 20px 65px 20px;box-sizing:border-box;background:#f7f7f4;}
+		.modal-img-box>div>span{display:inline-block;}
+		.modal-img-box>div>span>i{display:inline-block;font-size:12px;color:#000;}
+		.modal-img-box>div>span>a{display:inline-block;font-size:12px;color:#000;border-bottom:1px solid #000;}
+		
+		/* 닫기 버튼 */
+		.modal-closeBtn-wrap{position:absolute;top:10px;right:10px;width:30px;height:30px;}
+		.modal-closeBtn-wrap>span{display:block;width:100%;}
+		.modal-closeBtn-wrap>span>a{display:block;width:100%;}
+		.modal-closeBtn-wrap>span>a>img{width:23px;padding:3.5px;}
+		
+		/* 다음 버튼 */
+		.modal-nextBtn-wrap{position:absolute;top:65px;right:10px;width:30px;height:30px;}
+		.modal-nextBtn-wrap>span{display:block;width:100%;}
+		.modal-nextBtn-wrap>span>a{display:block;width:100%;text-align:center;}
+		.modal-nextBtn-wrap>span>a>img{height:30px;}
+		
+		/* 이전 버튼 */	
+		.modal-prevBtn-wrap{position:absolute;top:110px;right:10px;width:30px;height:30px;}
+		.modal-prevBtn-wrap>span{display:block;width:100%;}
+		.modal-prevBtn-wrap>span>a{display:block;width:100%;text-align:center;}
+		.modal-prevBtn-wrap>span>a>img{height:30px;}
+		
+		/* sns 버튼 */
+		.modal-sns-wrap{position:absolute;top:50%;right:0;margin-top:-72px;width:auto;}
+		.modal-sns-wrap>ul{width:auto;}
+		.modal-sns-wrap>ul>li{width:48px;height:48px;}
+		.modal-sns-wrap>ul>li>a{display:block;width:100%;height:100%;text-align:center;}
+		
+		.modal-sns-wrap>ul>li:nth-child(1)>a{background:#888 url(../img/icon-pinterest-wh.png) no-repeat 50% 50%;background-size:25px;}
+		.modal-sns-wrap>ul>li:nth-child(2)>a{background:#888 url(../img/icon-facebook-wh.png)  no-repeat 50% 50%;background-size:25px;}
+		.modal-sns-wrap>ul>li:nth-child(3)>a{background:#888 url(../img/icon-twitter-wh.png)   no-repeat 50% 50%;background-size:25px;}
+		
+		.modal-sns-wrap>ul>li>a:hover{background-color:#b7b7b1;}
+		.modal-sns-wrap>ul>li>a:focus{background-color:#b7b7b1;}
+		
+/*--------------------------------The end-------------------------------------------------------------------------------*/
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+@charset "utf-8"; /* 디자인 호텔스 main1 (Freeboard) */
+
+@import url("../../../css/headFootLib-response.css");
+
+@media all and (max-width:700px){
+	/* 하단 - 검색어 입력창 */
+	#bo_sch{max-width:100%;}
+	
+	/* 글 제목 */
+	#bo_v_title span.bo_v_tit{font-size:20px;}
+	
+	/* 글 정보 */	
+	#bo_v_info{font-size:12px;height:25px;padding-bottom:25px;box-sizing:content-box;}		
+	#bo_v_info strong:nth-child(3){display:block !important;width:100% !important;}		
+}
+@media all and (max-width:500px){
+	/* 수정 삭제 - 목록 답변 글쓰기 */
+	.bo_v_left{margin-top:0}
+	.bo_v_com{float:left;margin-top:0}
+	.bo_v_com li{margin:0 5px 0 0;}
+}

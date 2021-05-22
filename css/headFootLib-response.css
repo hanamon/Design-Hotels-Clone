@@ -1,0 +1,55 @@
+@charset "utf-8"; /* 디자인 호텔스 Intro headFootLib-response.css */
+
+@media all and (max-width:1024px){
+	#header{z-index:3;position:fixed;top:0;left:0;}
+	.mobile-menuBar{display:block;}
+	
+	.header-left-wrap,
+	.header-right-wrap{display:none;}
+	
+	#fixed-side-wrap{display:none;}
+	
+	#footer>div{padding:0 10px;}
+	.footer-top-wrap>li{width:100%;border-bottom:1px solid #444;}
+	.footer-top-wrap>li:first-child{border-top:1px solid #444;}
+	
+	.footer-top-wrap>li>a{background:url(../img/arrow-down-wh.png) no-repeat 99% 50%;background-size:25px;}
+	.footer-top-wrap>li>a.addSitemapBtn{background:url(../img/arrow-up-wh.png) no-repeat 99% 50%;background-size:25px;}
+	
+	.footer-sitemap-linkText{display:block;}
+	
+	address{padding:45px 0;}
+	.footer-address-copyright-wrap{float:none;width:100%;text-align:center;padding:0 0 30px 0;}
+	.footer-address-sns-wrap{float:none;width:100%;text-align:center;}
+	.footer-address-sns-wrap>span>a{margin:0 3px;}
+}
+
+@media all and (max-width:480px){
+	.footer-address-copyright-wrap>br{display:block;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,66 @@
+@charset "utf-8"; /* 디자인 호텔스 main3 (Original Experiences) */
+
+@import url("../../../css/headFootLib-response.css");
+
+@media all and (max-width:1024px){
+	#header{height:67px;}
+	.pc-menuBar{display:none;}
+	
+	#section2>div>ul{width:100%;background-image:none;}
+	#section2>div>ul>li{float:none;width:100%;}
+	#section2>div>ul>li:nth-child(1){background:#384144;}
+	#section2>div>ul>li:nth-child(2){background:#727b77;}
+	#section2>div>ul>li>div{padding:70px 80px;height:auto;}
+	
+	.section3-video-gallery>ul>li{float:left;width:50%;height:100%;}	
+	.section3-hidden-text-wrap>ul{padding:12.6117718% 7.8823574%;}
+}
+
+@media all and (max-width:900px){
+	#footer>div{padding:0 10px;}
+	.footer-top-wrap>li{float:none;width:100%;border-bottom:1px solid #444;}
+	.footer-top-wrap>li:first-child{border-top:1px solid #444;}
+	.footer-top-wrap>li>i{display:none;}
+	.footer-top-wrap>li>p>span{display:block;}
+	.footer-sitemap-linkText{display:none;}
+	
+	address{padding:45px 0;}
+	.footer-address-copyright-wrap{float:none;width:100%;text-align:center;padding:0 0 30px 0;}
+	.footer-address-sns-wrap{float:none;width:100%;text-align:center;}
+	.footer-address-sns-wrap>span>a{margin:0 3px;}
+}
+	
+@media all and (max-width:760px){
+	.section3-video-gallery>ul>li{float:none;width:100%;}
+}
+
+@media all and (max-width:600px){
+	.section3-video-nav>div>ul>li>a{font-size:12px;padding:17.5px 7px;transition:all 0.3s;}
+}
+
+@media all and (max-width:480px){
+	#section2>div>ul>li>div{padding:40px 30px;height:auto;}
+	#section2>div>ul>li>div>h2>span{font-size:18px;}
+	#section2>div>ul>li>div>h2>a   {font-size:18px;}
+	#section2>div>ul>li>div>p{font-size:14px;line-height:160%;padding-top:20px;}
+	
+	.section3-video-nav>div>ul>li>a{font-size:10px;padding:19.5px 4px;transition:all 0.3s;}
+}
+
+@media all and (max-width:340px){
+	.section3-hidden-text-wrap>ul{padding:3.152943% 7.8823574%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

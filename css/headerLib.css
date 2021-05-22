@@ -1,0 +1,200 @@
+@charset "utf-8"; /* 디자인 호텔스 Intro headerLib.css */
+
+#wrap{position:relative;width:100%;}
+
+/*------------------------------------------------------------------------------------------------------*/	
+	#header{z-index:3;position:relative;top:0;left:0;width:100%;height:auto;overflow:hidden;background:#fff;}
+	#header>div.pc-menuBar{width:100%;max-width:1115px;height:auto;padding:0 12.5px;margin:0 auto;box-sizing:border-box;}
+	/*-------------- Mobile Start --------------*/
+		/* 모바일 상단 고정 바 */
+		.mobile-menuBar{display:none;position:relative;width:100%;height:67px;border-bottom:1px solid #cfcfcf;box-sizing:border-box;background:#fff;}
+		.mobile-menuBar>h2{width:100%;height:100%;padding:0 12px;box-sizing:border-box;text-align:center;}
+		.mobile-menuBar>h2>a{display:inline-block;width:200px;height:66px;background:url(../img/header-mobil-logo-icon.png) no-repeat 50% 50%;background-size:auto 25px;}
+			/* 앱바 버튼 */
+			.appBarBtn{display:block;position:absolute;top:0;left:12px; width:57px;height:66px;padding:20px 15px;box-sizing:border-box;}
+			.appBarBtn>a{display:block;width:100%;height:100%;background:url(../img/icon-appbar.png) no-repeat 50% 50%;background-size:22px;}
+			/* 서치 버튼 */
+			.searchBtn{display:block;position:absolute;top:0;right:12px;width:57px;height:66px;padding:20px 15px;box-sizing:border-box;}
+			.searchBtn>a{display:block;width:100%;height:100%;background:url(../img/icon-search.png) no-repeat 50% 50%;background-size:22px;}
+		
+	/*----------------- PC Start -----------------*/
+		/* 좌측 로고 */
+		.header-left-wrap{float:left;width:22.9357798%;height:88px;}
+		.header-left-wrap>h2{padding:35px 0 18px 0;}
+		.header-left-wrap>h2>a{display:block;}
+		.header-left-wrap>h2>a>img{height:35px;}
+		
+		/* 우측 메뉴 */
+		.header-right-wrap{float:right;width:77.0642202%;height:88px;}
+			/* 어사이드 메뉴 */
+			.header-right-aside-wrap{width:100%;}
+			.header-right-aside-wrap>ul{width:100%;text-align:right;height:30px;padding-top:15px;box-sizing:border-box;}
+			.header-right-aside-wrap>ul>li{display:inline-block;}
+			.header-right-aside-wrap>ul>li>a{display:block;height:15px;font-size:12px;color:rgba(0,0,0,0.7);line-height:15px;}
+			.header-right-aside-wrap>ul>li>a:hover{color:rgba(0,0,0,1);}
+			.header-right-aside-wrap>ul>li>a:focus{color:rgba(0,0,0,1);}
+			
+			.header-right-aside-wrap>ul>li>a>img{height:15px;padding:0 10px 0 5px;opacity:0.7;}
+			.header-right-aside-wrap>ul>li:hover>a>img{opacity:1;}
+			.header-right-aside-wrap>ul>li:focus>a>img{opacity:1;}
+			.header-right-aside-wrap>ul>li>span{display:block;font-size:10px;color:#000;margin:1px 5px 0 5px;}
+			.header-right-aside-wrap>ul>li:last-child{margin-left:10px;}
+			/* 메인 메뉴 */
+			.header-right-nav-wrap{width:100%;}
+			.header-right-nav-wrap>ul{height:58px;padding:15px 0;box-sizing:border-box;text-align:right;}
+			.header-right-nav-wrap>ul>li{display:inline-block;height:100%;margin:0 5px;}
+			.header-right-nav-wrap>ul>li:last-child{margin:0;}
+			
+			.header-right-nav-wrap>ul>li>a{display:block;height:28px;line-height:20px;font-size:16px;font-weight:600;color:#000;letter-spacing:-0.5px;padding:3.5px 0;box-sizing:border-box;}
+			.header-right-nav-wrap>ul>li>a:hover{border-bottom:1px solid rgba(0,0,0,0.5);}
+			.header-right-nav-wrap>ul>li>a:focus{border-bottom:1px solid rgba(0,0,0,0.5);}
+
+/*---------------------------------------------------------------------------------------------------------------*/	
+	/* 모바일 좌측 히든 메뉴 박스 */
+	#mobile-menuBox{display:none;z-index:4;position:fixed;top:0;left:-100%;width:100%;height:100%;background:#222121;}
+	#mobile-menuBox>div{height:100%;padding:16px;overflow-y:auto;}
+		/* 모바일 메뉴박스 : 상단 */
+		.mobile-menuBox-head{width:100%;height:51px;}
+			/* 좌측 로고 */
+			.mobile-logoBtn-wrap{float:left;width:30px;height:30px;padding-bottom:18.5px;}
+			.mobile-logoBtn-wrap>a{display:block;width:100%;height:100%;}
+			.mobile-logoBtn-wrap>a>img{width:100%;}
+			/* 우측 닫기 버튼 */
+			.mobile-menuBox-closeBtn-wrap{float:right;width:30px;height:30px;}
+			.mobile-menuBox-closeBtn-wrap>a{display:block;width:100%;height:100%;background:url(../img/icon-delete.png) no-repeat 50% 50%;background-size:20px;opacity:0.5;}
+		
+		/* 모바일 메뉴박스 : 중간 */
+		.mobile-menuBox-menuBtn{width:100%;}
+		.mobile-menuBox-menuBtn>li{padding:10px 0;border-top:1px solid rgba(255,255,255,0.1);}
+		.mobile-menuBox-menuBtn>li:last-child{border-bottom:1px solid #555;}
+		.mobile-menuBox-menuBtn>li>a{display:inline-block;font-size:16px;color:#cfcfcf;font-weight:500;text-transform:uppercase;text-indent:3px;}
+		
+		/* 모바일 메뉴박스 : 하단 */
+		.mobile-menuBox-footer{width:100%;padding-bottom:30px;}
+		.mobile-menuBox-footer>li{padding-top:18px;}
+		.mobile-menuBox-footer>li:last-child{padding-bottom:18px;}
+		.mobile-menuBox-footer>li>p{font-size:14px;color:#cfcfcf;font-family:'Nanum Myeongjo';margin-left:3px;}
+		.mobile-menuBox-footer>li>span{display:inline-block;margin:0 3px;}
+		.mobile-menuBox-footer>li>span>a{display:block;font-size:14px;color:#cfcfcf;font-weight:600;padding:10px 15px;background:#000;text-transform:uppercase;}
+		/* icons */
+		.mobile-menuBox-footer>li>div{width:100%;}
+		.mobile-menuBox-footer>li>div>span{display:block;}
+		.mobile-menuBox-footer>li>div>span>a{display:inline-block;width:27px;height:27px;text-align:center;border-radius:50%;margin:0 3px;}
+		
+		.mobile-menuBox-footer>li>div>span>a:nth-child(1){background:#888 url(../img/icon-insta.png)     no-repeat 50% 50%;background-size:15px;}
+		.mobile-menuBox-footer>li>div>span>a:nth-child(2){background:#888 url(../img/icon-facebook.png)  no-repeat 50% 50%;background-size:15px;}
+		.mobile-menuBox-footer>li>div>span>a:nth-child(3){background:#888 url(../img/icon-pinterest.png) no-repeat 50% 50%;background-size:15px;}
+		.mobile-menuBox-footer>li>div>span>a:nth-child(4){background:#888 url(../img/icon-twitter.png)   no-repeat 50% 50%;background-size:15px;}
+		.mobile-menuBox-footer>li>div>span>a:nth-child(5){background:#888 url(../img/icon-linkedin.png)  no-repeat 50% 50%;background-size:12px;}
+		.mobile-menuBox-footer>li>div>span>a:nth-child(6){background:#888 url(../img/icon-youtube.png)   no-repeat 50% 50%;background-size:22px;}
+
+/*---------------------------------------------------------------------------------------------------------------*/	
+	/* 헤드하단 고정 메뉴바*/
+	#fixed-side-wrap{z-index:3;position:absolute;top:88px;left:0;width:100%;height:auto;background:rgba(255,255,255,0.8);box-shadow:0 5px 7px rgba(0,0,0,0.3);}
+	#fixed-side-wrap.addFixedSide{position:fixed;top:0;left:0;background:#ebebe6;}
+	#fixed-side-wrap>div{width:100%;max-width:1116px;height:auto;margin:0 auto;padding:0 13px;box-sizing:border-box;}
+	#fixed-side-wrap>div>ul{width:100%;}
+	#fixed-side-wrap>div>ul>li{float:left;height:70px;overflow:visible;}/*히든*/
+	#fixed-side-wrap>div>ul>li:nth-child(1){width:30%;}
+	#fixed-side-wrap>div>ul>li:nth-child(2){width:70%;}
+		/* 고정 메뉴바 좌측*/
+		.fixed-side-left-wrap{padding:20px 0;}
+		#labelSearch{display:block;width:260px;height:30px;padding-left:45px;box-sizing:border-box;background:url(../img/icon-search.png) no-repeat 5px 50%;background-size:25px;opacity:0.5;}
+		#labelSearch:hover{opacity:1;}
+		#labelSearch.addSearch{opacity:1;}
+		
+		input#idsearch{display:block;width:200px;height:16px;padding:7px;color:#000;border-left:1px solid #888;background:transparent;outline:0;}
+
+		/* 고정 메뉴바 우측 */
+		.fixed-side-right-wrap{float:right;}
+		.fixed-side-right-wrap>li{position:relative;display:inline-block;padding:15px 0;}
+		.fixed-side-right-wrap>li>div{padding:10px 40px 10px 20px;border-left:1px solid #888;}
+		.fixed-side-right-wrap>li>div>a{display:block;}
+		.fixed-side-right-wrap>li>div>a>i{display:inline-block;width:22.5px;height:20px;background:url(../img/icon-calendar.png) no-repeat 0 50%;background-size:18px;opacity:0.5;}
+		.fixed-side-right-wrap>li>div>a:hover>i{opacity:1;}
+		.fixed-side-right-wrap>li>div>a:focus>i{opacity:1;}
+		.fixed-side-right-wrap>li>div>a>i.addSideIcon{opacity:1;}
+		.fixed-side-right-wrap>li>div>a>span{display:inline-block;height:20px;font-size:14px;line-height:20px;}
+		.fixed-side-right-wrap>li>div>button{display:block;width:150px;height:55px;font-size:16px;font-weight:600;color:#000;background:#ffed00;cursor:pointer;transition:all 0.3s;}
+		.fixed-side-right-wrap>li>div>button:hover{background:#fff669;transition:all 0.3s;}
+		.fixed-side-right-wrap>li>div>button:focus{background:#fff669;transition:all 0.3s;}
+
+		.fixed-side-right-wrap>li:nth-child(3){padding:12.5px 0;}
+		.fixed-side-right-wrap>li:nth-child(3)>div{padding:0px 40px 0px 20px;}
+		.fixed-side-right-wrap>li:nth-child(3)>div>a{display:block;height:35px;padding:5px 0;}
+		.fixed-side-right-wrap>li:nth-child(3)>div>a>img{width:15px;opacity:0.6;}
+		.fixed-side-right-wrap>li:nth-child(3)>div>a:hover>img{opacity:1;}
+		.fixed-side-right-wrap>li:nth-child(3)>div>a:focus>img{opacity:1;}
+		.fixed-side-right-wrap>li:nth-child(3)>div>a>span{display:block;padding:0;}
+		
+		.fixed-side-right-wrap>li:last-child{padding:15px 0 0 0;}
+		.fixed-side-right-wrap>li:last-child>div{padding:0;border:0;}
+		
+		/* check In Out 메뉴의 히든박스 */
+		.checkInCalender-wrap{display:none;position:absolute;top:70px;left:50%;margin-left:-300px;width:560px;height:auto;background:#fff;}
+		.checkInCalender-wrap:before{position:absolute;top:-20px;left:50%;margin-left:-10px;content:'';display:block;border-left:10px solid transparent;border-right:10px solid transparent;border-top:10px solid transparent;border-bottom:10px solid #fff;}
+		.checkInCalender-wrap>ul{z-index:1;position:relative;width:100%;padding:0;margin:0;}
+		.checkInCalender-wrap>ul>li{float:left;width:50%;box-sizing:border-box;}
+		.checkInCalender-wrap>ul>li:nth-child(1){padding:20px 17.2px 20px 37.2px;}
+		.checkInCalender-wrap>ul>li:nth-child(2){padding:20px 37.2px 20px 17.2px;}
+		.checkInCalender-wrap>ul>li>div{width:225.6px;}
+		
+		.checkOutCalender-wrap{display:none;position:absolute;top:70px;left:50%;margin-left:-300px;width:560px;height:auto;background:#fff;}
+		.checkOutCalender-wrap:before{position:absolute;top:-20px;left:50%;margin-left:-10px;content:'';display:block;border-left:10px solid transparent;border-right:10px solid transparent;border-top:10px solid transparent;border-bottom:10px solid #fff;}
+		.checkOutCalender-wrap>ul{z-index:1;position:relative;width:100%;padding:0;margin:0;}
+		.checkOutCalender-wrap>ul>li{float:left;width:50%;box-sizing:border-box;}
+		.checkOutCalender-wrap>ul>li:nth-child(1){padding:20px 17.2px 20px 37.2px;}
+		.checkOutCalender-wrap>ul>li:nth-child(2){padding:20px 37.2px 20px 17.2px;}
+		.checkOutCalender-wrap>ul>li>div{width:225.6px;}
+		
+			/* 캘린더 박스 */
+			.checkInCalender-wrap>ul>li>div>div{width:100%;}	
+			.checkInCalender-wrap>ul>li>div>div>div{width:100%;padding:0;margin:0 auto;}	
+			
+			.checkOutCalender-wrap>ul>li>div>div{width:100%;}	
+			.checkOutCalender-wrap>ul>li>div>div>div{width:100%;padding:0;margin:0 auto;}	
+		
+		/* Adults-Children 메뉴의 히든박스 */
+		.adultsChildren-wrap{display:none;position:absolute;top:70px;left:0;width:168px;height:auto;background:#fff;border:1px solid #c3c3c3;}
+		.adultsChildren-wrap>ul{width:100%;}
+		.adultsChildren-wrap>ul>li{width:100%;border-top:1px solid #c3c3c3;}
+		.adultsChildren-wrap>ul>li:first-child{border:0;}
+			/* 좌측 텍스트 */
+			.fixed-side-adults-text-wrap{float:left;width:65%;padding:20px 0;border-right:1px solid #c3c3c3;box-sizing:border-box;}
+			.fixed-side-adults-text-wrap>span{display:block;font-size:12px;color:#222;padding-left:10px;cursor:pointer;}
+			.fixed-side-adults-text-wrap>span>i{display:block;font-size:10px;text-indent:-2px;}
+			/* 우측 숫자 */
+			.fixed-side-adults-button-wrap{float:left;width:35%;padding:16px 0;text-align:center;}
+			.fixed-side-adults-button-wrap>a{display:block;font-size:12px;color:#222;}
+				
+				.fixed-side-adults-number{display:inline-block;font-size:12px;padding:4px 5px 4px 0;}
+				/* 업다운 버튼 */
+				.fixed-side-adults-button-span-i{display:inline-block;padding:2px 0;}
+				.fixed-side-adults-button-span-i>button{display:block;width:10px;height:10px;background:transparent;cursor:pointer;outline:0;}
+				.fixed-side-adults-button-span-i>button:nth-child(1){background:url(../img/arrow-up.png)   no-repeat 50% 50%;background-size:11px;}
+				.fixed-side-adults-button-span-i>button:nth-child(2){background:url(../img/arrow-down.png) no-repeat 50% 50%;background-size:11px;}
+			
+			.fixed-side-adults-a-text{padding:13.5px 0;}
+				
+/*---------------------------------------------The end---------------------------------------------------------*/	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		

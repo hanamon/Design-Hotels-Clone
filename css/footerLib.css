@@ -1,0 +1,66 @@
+@charset "utf-8"; /* 디자인 호텔스 Intro footerLib.css */
+
+/*------------------------------------------------------------------------------------------------------*/	
+	#footer{z-index:1;position:relative;width:100%;height:auto;padding:40px 0;background:#222;overflow:hidden;}
+	#footer>div{width:100%;max-width:1090px;padding:0 30px;margin:0 auto;box-sizing:border-box;}
+		
+		/* 푸터 상단 : 사이트맵 */
+		.footer-top-wrap{width:100%;}
+		.footer-top-wrap>li{float:left;width:16.666666%;box-sizing:border-box;}
+		.footer-top-wrap>li>a{display:block;font-size:15px;color:#dbe4e3;font-weight:600;line-height:120%;padding:15px 0 10px 0;background:none;}
+		
+			.footer-sitemap-linkText{width:100%;}
+			.footer-sitemap-linkText>li{height:25px;padding:5px 0;box-sizing:border-box;}
+			.footer-sitemap-linkText>li>a{display:inline-block;font-size:11px;color:#999;}
+		
+		/* 푸터 하단 : 어드레스 */
+		address{display:block;width:100%;padding-top:60px;}
+			
+			.footer-address-copyright-wrap{float:left;font-size:12px;color:#888;padding:11.5px 0;}
+			.footer-address-copyright-wrap>a{color:#666;}
+			.footer-address-copyright-wrap>span{margin:0 5px;}
+			.footer-address-copyright-wrap>span:first-child{margin:0;}
+			.footer-address-copyright-wrap>br{display:none;}
+				
+			.footer-address-sns-wrap{float:right;text-align:right;}
+			.footer-address-sns-wrap>span{display:inline-block;}
+			.footer-address-sns-wrap>span>a{display:inline-block;width:35px;height:35px;text-align:center;border-radius:50%;margin:0 5px;}
+			
+			.footer-address-sns-wrap>span>a:nth-child(1){background:#888 url(../img/icon-insta.png)     no-repeat 50% 50%;background-size:15px;}
+			.footer-address-sns-wrap>span>a:nth-child(2){background:#888 url(../img/icon-facebook.png)  no-repeat 50% 50%;background-size:15px;}
+			.footer-address-sns-wrap>span>a:nth-child(3){background:#888 url(../img/icon-pinterest.png) no-repeat 50% 50%;background-size:15px;}
+			.footer-address-sns-wrap>span>a:nth-child(4){background:#888 url(../img/icon-twitter.png)   no-repeat 50% 50%;background-size:15px;}
+			.footer-address-sns-wrap>span>a:nth-child(5){background:#888 url(../img/icon-linkedin.png)  no-repeat 50% 50%;background-size:12px;}
+			.footer-address-sns-wrap>span>a:nth-child(6){background:#888 url(../img/icon-youtube.png)   no-repeat 50% 50%;background-size:22px;}
+	
+	#markUp{z-index:2;position:absolute;bottom:5px;left:0;width:100%;text-align:center;}
+	#markUp>p{display:inline-block;}
+	
+/*---------------------------------------------The end---------------------------------------------------------*/		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

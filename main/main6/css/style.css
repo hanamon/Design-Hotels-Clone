@@ -1,0 +1,93 @@
+@charset "utf-8"; /* 디자인 호텔스 main6 - (Store) */
+
+@import url("../../../css/fonts.css");
+@import url("../../../css/reset.css");
+
+#wrap{position:relative;width:100%;background:#f3f3f3;}
+/*--------------------------------------------------------------------------------*/
+	#header{z-index:3;position:fixed;top:0;left:0;width:100%;box-shadow:0 1px 2px 0 rgba(100,100,100,0.5);background:#fff;}
+	#header>div{width:100%;max-width:1118px;margin:0 auto;padding:30px 0;transition:all 0.5s;}
+	#header>div.addFixed{padding:10px 0;transition:all 0.3s;}
+	#header>div>div{padding:0 75px;text-align:center;transition:all 0.3s;}
+	#header>div>div>h2{display:inline-block;}
+	#header>div>div>h2>a{display:block;}
+	#header>div>div>h2>a>img{height:62px;transition:all 0.3s;}
+	
+	/*----------------------------------------------------------------------------*/
+	#main{z-index:2;position:relative;width:100%;padding-top:122px;}
+	#main>div{width:100%;max-width:1118px;margin:0 auto;background:#fff;}
+	#main>div>div{padding:6.7084079%;text-align:center;font-family:'Nanum Myeongjo';}
+		.text-wrap{padding:0 20.1446281%;}
+		.text-wrap>p{font-size:16px;color:#000;font-weight:800;line-height:150%;}
+		
+		.prod-wrap{padding-top:50px;}
+		.prod-wrap>ul{width:100%;}
+		.prod-wrap>ul>li{float:left;width:50%;padding:15px 15px;box-sizing:border-box;}
+		.prod-wrap>ul>li:nth-child(1){padding-left:0;}
+		.prod-wrap>ul>li:nth-child(3){padding-left:0;}
+		.prod-wrap>ul>li:nth-child(5){padding-left:0;}
+		.prod-wrap>ul>li:nth-child(2){padding-right:0;}
+		.prod-wrap>ul>li:nth-child(4){padding-right:0;}
+		.prod-wrap>ul>li:nth-child(6){padding-right:0;}
+		.prod-wrap>ul>li>div{position:relative;width:100%;}
+			
+			/* 솔드아웃 */
+			.soldOut-wrap{z-index:2;position:absolute;top:15px;right:0;background:#222;text-transform:uppercase;}
+			.soldOut-wrap>i{display:block;font-size:14px;color:#fff;padding:5px 10px;font-weight:900;}
+			/* 텍스트 컨텐츠 박스 */
+			.content-wrap{z-index:1;position:relative;display:block;width:100%;text-decoration:underline;color:#636363;transition:all 0.3s;}
+			.content-wrap>i{display:none;z-index:2;position:absolute;top:10px;left:10px;width:15px;height:15px;background:url(../img/icon-pinterest-red.png) no-repeat 50% 50%;background-size:15px;}
+			.content-wrap>img{z-index:1;position:relative;top:0;left:0;width:100%;transition:all 0.3s;}
+			.content-wrap>span{display:block;padding-top:15px;}
+			.content-wrap>span>strong{display:block;font-size:13.5px;font-weight:900;line-height:160%;}
+			.content-wrap>span>i{display:inline-block;font-size:11.5px;font-weight:900;line-height:160%;padding:0 3px;}
+			.content-wrap>span>i.text-daco{color:#999;text-decoration:line-through;font-weight:400;}
+			/* 링크 랩 */
+			.aCover-wrap{z-index:3;position:absolute;top:0;left:0;display:block;width:100%;height:100%;}	
+			.aCover-wrap>a{display:block;width:100%;height:100%;}	
+			
+	/*----------------------------------------------------------------------------*/
+	#footer{z-index:1;position:relative;width:100%;}
+	#footer>div{width:100%;max-width:1118px;margin:0 auto;background:#fff;}
+		.footer-nav-wrap{padding:30px 125px;}
+		.footer-nav-wrap>div{width:100%;}
+		.footer-nav-wrap>div>ul{width:100%;text-align:center;}
+		.footer-nav-wrap>div>ul>li{display:inline-block;text-transform:uppercase;padding-top:15px;}
+		.footer-nav-wrap>div>ul>li>a{display:block;font-size:12px;color:#343434;font-weight:600;text-decoration:underline;padding:0 12px;}
+		.footer-nav-wrap>div>ul>li>a:hover{color:#818181;}
+		.footer-nav-wrap>div>ul>li>a:focus{color:#818181;}
+		
+		.footer-side-wrap{padding:45px 75px;height:1px;}
+	
+	/*----------------------------------------------------------------------------*/
+	#markUp{z-index:2;position:absolute;bottom:5px;left:0;width:100%;text-align:center;}
+	#markUp>p{display:inline-block;}
+		
+/*-------------------------------The end-------------------------------------------------*/	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+

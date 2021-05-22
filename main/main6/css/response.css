@@ -1,0 +1,27 @@
+@charset "utf-8"; /* 디자인 호텔스 main6 - (Store) */
+
+@media all and (max-width:900px){
+	.prod-wrap>ul>li{width:100%;}
+	.prod-wrap>ul>li:nth-child(1){padding-left:15px;}
+	.prod-wrap>ul>li:nth-child(3){padding-left:15px;}
+	.prod-wrap>ul>li:nth-child(5){padding-left:15px;}
+	.prod-wrap>ul>li:nth-child(2){padding-right:15px;}
+	.prod-wrap>ul>li:nth-child(4){padding-right:15px;}
+	.prod-wrap>ul>li:nth-child(6){padding-right:15px;}
+}
+
+@media all and (max-width:640px){
+	#header>div{padding:2.5px;box-sizing:border-box;transition:all 0.5s;}
+	#header>div.addFixed{padding:2.5px 0;transition:all 0.3s;}
+	#header>div>div{padding:0;transition:all 0.3s;}
+	#header>div>div>h2>a>img{height:58px;transition:all 0.3s;}
+	
+	#main{padding-top:63px;}
+	#main>div>div{padding:5%;}
+	.footer-nav-wrap{padding:0;}
+	.footer-nav-wrap>div>ul>li{display:block;padding:18px 0;border-bottom:1px solid #f2f2f2;}
+	.footer-nav-wrap>div>ul>li:last-child{border:0;}
+	.footer-nav-wrap>div>ul>li>a{padding:0;}
+}
+
+
