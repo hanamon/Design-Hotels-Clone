@@ -46,23 +46,3 @@ $(function(){ //modal-Login.js
 	}
 	
 }); //modal-Login.js
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

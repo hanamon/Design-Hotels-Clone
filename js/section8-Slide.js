@@ -216,26 +216,3 @@ $(function(){ //section8-Slide.js
 	}
 	
 }); //section8-Slide.js
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

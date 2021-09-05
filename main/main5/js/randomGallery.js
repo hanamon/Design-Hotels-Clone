@@ -94,37 +94,3 @@ $(function(){ //randomGallery.js
 	}
 
 }); //randomGallery.js
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

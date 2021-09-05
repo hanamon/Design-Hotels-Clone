@@ -347,32 +347,3 @@
 	</div>
 	<div id='main'>
 		<div id='boardContent'>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
