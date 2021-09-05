@@ -4,10 +4,10 @@ $(function(){ //main4NavBtn.js
 		$(this).on({
 			click: function(){
 				if( index == 0 ){
-					location.href = 'http://jimoroot.dothome.co.kr/hotel/main/main4/main4-1';
+					location.href = '/Project-2019/Design-Hotels-Clone/main/main4/main4-1';
 				}
 				else if( index == 1 ){
-					location.href = 'http://jimoroot.dothome.co.kr/hotel/main/main4/main4-2';
+					location.href = '/Project-2019/Design-Hotels-Clone/main/main4/main4-2';
 				}
 				else{
 					$('html').addClass('addScroll');
